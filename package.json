@@ -1,8 +1,8 @@
 {
-  "name": "SVsite_Marcial",
-  "homepage" : "https://eisonumsv.github.io/",
-  "private": true,
+  "name": "SVsite-Marcial",
   "version": "0.1.0",
+  "private": true,
+  "homepage": "https://eisonumsv.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
