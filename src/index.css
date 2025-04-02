@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +97,40 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-navy text-white;
   }
+  
+  /* Windows-like scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #071625;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+.window-container {
+  @apply bg-navy border-2 border-white/20 rounded-lg shadow-lg overflow-hidden;
+}
+
+.window-header {
+  @apply bg-navy-dark text-yellow-300 p-3 flex justify-between items-center border-b border-white/20;
+}
+
+.window-content {
+  @apply p-6;
+}
+
+.profile-image {
+  @apply border-4 border-white/20 shadow-lg;
 }
